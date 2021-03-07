@@ -5,7 +5,7 @@
 [ext_resource path="res://src/new_card_game/cards/CreatureFront.gd" type="Script" id=3]
 
 [sub_resource type="StyleBoxFlat" id=1]
-bg_color = Color( 0.658824, 0.443137, 0.396078, 1 )
+bg_color = Color( 0.396078, 0.305882, 0.533333, 1 )
 corner_radius_top_left = 10
 corner_radius_top_right = 10
 corner_radius_bottom_right = 10

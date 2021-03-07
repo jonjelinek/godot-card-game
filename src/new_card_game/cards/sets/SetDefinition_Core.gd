@@ -22,4 +22,13 @@ const CARDS := {
 		"Power": 2,
 		"Health": 1,
 	},
+	"Dual Backstab": {
+		"Type": "Attack",
+		"Tags": ["Fast", "Double Damage"],
+		"Requirements": "Must be hidden to use",
+		"Abilities": " ",
+		"Cost": 1,
+		"Power": 5,
+		"Health": 1,
+	}
 }

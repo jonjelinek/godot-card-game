@@ -16,4 +16,8 @@ margin_right = 245.0
 margin_right = 247.0
 
 [node name="Label" parent="Control" index="0"]
-text = "This Grid has a modified label"
+margin_left = -1.0
+margin_top = -23.0
+margin_right = 494.0
+margin_bottom = -3.0
+text = "Opponent"

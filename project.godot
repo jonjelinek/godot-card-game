@@ -234,11 +234,6 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://src/core/Card/TokenDrawer.gd"
 }, {
-"base": "Node",
-"class": "UTCommon",
-"language": "GDScript",
-"path": "res://tests/UTcommon.gd"
-}, {
 "base": "Node2D",
 "class": "ViewportCardFocus",
 "language": "GDScript",
@@ -295,7 +290,6 @@ _global_script_class_icons={
 "TargetingArrow": "",
 "Token": "",
 "TokenDrawer": "",
-"UTCommon": "",
 "ViewportCardFocus": "",
 "perMessage": ""
 }
@@ -303,12 +297,17 @@ _global_script_class_icons={
 [application]
 
 config/name="Card Game"
-run/main_scene="res://src/custom/CGFMain.tscn"
+run/main_scene="res://src/new_card_game/Main.tscn"
 config/icon="res://icon.png"
 
 [autoload]
 
 cfc="*res://src/core/CFControl.gd"
+
+[display]
+
+window/size/width=1280
+window/size/height=720
 
 [rendering]
 
