@@ -5,7 +5,7 @@
 [ext_resource path="res://src/new_card_game/cards/CreatureFront.gd" type="Script" id=3]
 
 [sub_resource type="StyleBoxFlat" id=3]
-bg_color = Color( 0.101961, 0.490196, 0.0862745, 1 )
+bg_color = Color( 0.494118, 0.0980392, 0.0980392, 1 )
 corner_radius_top_left = 10
 corner_radius_top_right = 10
 corner_radius_bottom_right = 10
@@ -23,6 +23,16 @@ margin_right = -874.0
 margin_bottom = -360.0
 custom_styles/panel = SubResource( 3 )
 script = ExtResource( 3 )
+
+[node name="CardText" parent="Margin" index="0"]
+margin_bottom = 242.0
+
+[node name="Abilities" parent="Margin/CardText" index="4"]
+margin_bottom = 225.0
+
+[node name="HB" parent="Margin/CardText" index="5"]
+margin_top = 229.0
+margin_bottom = 242.0
 
 [node name="Power" parent="Margin/CardText/HB" index="1"]
 margin_right = 93.0
